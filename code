@@ -13,3 +13,29 @@ else:
         print("F")
     print("G")
 print("H")
+
+
+
+A = 1
+while A<=10:
+ print(A, "). hello")
+ A = A + 1
+ 
+ A = 1
+while A<=10:
+  print(2, "x", A, "=", A*2)
+  A = A + 1
+ 
+ 
+num = input("Enter Any Number:")
+A = 1
+while A<=10:
+  print(num, "x", A, "=", A*int(num))
+  A = A + 1
+  
+num = int(input("what timestable do you need:"))
+range = int(input("Enter the number for Range:"))
+A = 1
+while A<=range:
+  print(num, "x", A, "=", A*num)
+  A = A + 1
