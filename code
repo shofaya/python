@@ -1,0 +1,15 @@
+no = 2001
+
+if no>=1000:
+    print("A")
+    if no>=2000:
+        print("B")
+    else:
+            print("C")
+    print("D")
+else:
+    print("E")
+    if no>=500:
+        print("F")
+    print("G")
+print("H")
